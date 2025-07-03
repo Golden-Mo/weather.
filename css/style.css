@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    padding: 0;
+    list-style: none;
+}
+/* nav */
+nav {
+    background-color: #1E202B;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav .logo img {
+    width: 60px;
+}
+nav .logo h2 {
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+
+}
+nav .logo span {
+    font-weight: 300;
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+
+}
+nav .links ul li a {
+    color: white; 
+    font-size: 14px;
+    transition: 0.4s; 
+    font-family: "Roboto", sans-serif;
+
+}
+nav .links ul .active {
+     border: 2px solid #009AD8;
+    border-radius: 30px;
+    padding-block:1px ;
+    padding-inline:25px ;
+    transition: 0.4s;
+    a {
+        color: RGB(0, 154, 216);
+    }
+} 
+nav .links ul li {
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding-block:1px ;
+    padding-inline:25px ;
+    margin-right: 5px;
+    transition: 0.4s;
+}
+nav .links ul li:hover {
+ border: 2px solid #009AD8;
+}
+nav .links ul li:hover a{
+ color: RGB(0, 154, 216);
+}
+/* main */
+main .empty {
+    background-color: #1E202B;
+    height: 350px;
+}
+main .layer  {
+    inset: 0;
+    top: 60px;
+}
+main .layer input {
+    height: 60px;
+    background-color: #2d2d3b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+main .layer button {
+    right: 15px;
+     top: 50%; transform: translateY(-50%);
+      background-color: #00bfff;
+       color: white;
+        border: none;
+        padding: 15px 40px;
+}
+/* footer */
+footer {
+    background-color: #262936;
+}
+footer button {
+   right: 15px;
+     top: 50%; transform: translateY(-50%);
+      background-color: #00bfff;
+       color: white;
+        border: none;
+        padding: 11px 40px;
+}
+footer input {
+     height: 50px;
+    background-color: #2d2d3b;
+    color: white;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+footer .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #009AD8;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #2d2d3b ;
+    border-radius: 50%;
+    transition: 0.5s;
+
+    i {
+        transition: 0.5s;
+    }
+}
+footer .icon:hover {
+    border: 1px solid #009AD8 ;
+    background-color: #009AD8;
+    color: white;
+
+}
+footer span {
+    font-size: 14px;
+    font-weight: 300;
+    color: RGB(191, 193, 200);
+    font-family: "Roboto", sans-serif;
+
+}
